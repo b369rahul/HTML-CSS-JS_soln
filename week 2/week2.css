@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 *{
     box-sizing: border-box;
@@ -98,4 +99,86 @@ h1{
 
 .s3{
     background-color: gold;
+=======
+
+*{
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+    color:blue;
+}
+
+@media(min-width:992px){
+    .col-lg-4 {
+        float:left;
+        width:calc(33.3% - 20px);
+        margin-right:10px ;
+        margin-left:10px;
+        background-color:yellowgreen;
+        border: 5px solid black;
+        clear:right;
+        padding-left: 10px;
+        padding-bottom: 10px ;
+    }
+}
+@media (min-width: 768px)and (max-width: 991px){
+    .col-md-6 {
+        float:left;
+        width:calc(50% - 20px);
+        margin-right:10px ;
+        margin-left:10px;
+        background-color:yellowgreen;
+        border: 5px solid black;
+        clear:right;
+        padding-left: 10px;
+        padding-bottom: 10px ;
+        margin-bottom: 20px;
+    }
+    .col-md-12 {
+        float:left;
+        width:calc(100% - 20px);
+        margin-right:10px ;
+        margin-left:10px;
+        background-color:yellowgreen;
+        border: 5px solid black;
+        clear:right;
+        padding-left: 10px;
+        padding-bottom: 10px ;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:767px){
+    .col-sm-12 {
+        float:left;
+        width:calc(100% - 20px);
+        margin-right:10px ;
+        margin-left:10px;
+        background-color:yellowgreen;
+        border: 5px solid black;
+        clear:right;
+        padding-left: 10px;
+        padding-bottom: 10px ;
+        margin-bottom: 20px;
+    }
+}
+.section_align{
+    border: 2px solid black;
+    color:darkblue;
+    width:max-content;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left:100%;
+    float:right;
+    background-color: burlywood;
+}
+
+#home{
+    clear:both;
+    margin-top: 30px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+>>>>>>> 19856faac0b09b872ba869d220174632bfdda02f
 }
