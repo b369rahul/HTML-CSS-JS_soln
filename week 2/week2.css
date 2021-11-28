@@ -15,7 +15,6 @@ h1{
         width:calc(33.3% - 20px);
         margin-right:10px ;
         margin-left:10px;
-        background-color:yellowgreen;
         border: 5px solid black;
         clear:right;
         padding-left: 10px;
@@ -71,4 +70,32 @@ h1{
     margin-left:100%;
     float:right;
     background-color: burlywood;
+}
+
+#home{
+    clear:both;
+    margin-top: 30px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sec1{
+    background-color: brown;
+}
+.sec2{
+    background-color: darkkhaki;
+}
+.sec3{
+    background-color: fuchsia;
+}
+
+.s1{
+    background-color: darkorange;
+}
+
+.s2{
+    background-color: gainsboro;
+}
+
+.s3{
+    background-color: gold;
 }
