@@ -13,7 +13,8 @@ h1{
     .col-lg-4 {
         float:left;
         width:calc(33.3% - 20px);
-        margin-right:20px ;
+        margin-right:10px ;
+        margin-left:10px;
         background-color:yellowgreen;
         border: 5px solid black;
         clear:right;
@@ -25,7 +26,8 @@ h1{
     .col-md-6 {
         float:left;
         width:calc(50% - 20px);
-        margin-right:20px ;
+        margin-right:10px ;
+        margin-left:10px;
         background-color:yellowgreen;
         border: 5px solid black;
         clear:right;
@@ -36,7 +38,8 @@ h1{
     .col-md-12 {
         float:left;
         width:calc(100% - 20px);
-        margin-right:20px ;
+        margin-right:10px ;
+        margin-left:10px;
         background-color:yellowgreen;
         border: 5px solid black;
         clear:right;
@@ -49,7 +52,8 @@ h1{
     .col-sm-12 {
         float:left;
         width:calc(100% - 20px);
-        margin-right:20px ;
+        margin-right:10px ;
+        margin-left:10px;
         background-color:yellowgreen;
         border: 5px solid black;
         clear:right;
