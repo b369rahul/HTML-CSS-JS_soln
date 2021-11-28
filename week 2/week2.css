@@ -72,3 +72,10 @@ h1{
     float:right;
     background-color: burlywood;
 }
+
+#home{
+    clear:both;
+    margin-top: 30px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
