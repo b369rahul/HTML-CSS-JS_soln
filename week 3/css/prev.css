@@ -1,0 +1,26 @@
+body{
+    font: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.fleft{
+    float: left;
+}
+.fright{
+    float:right;
+}
+#navbarSupportedContent{
+    margin-left:auto!important ;
+    margin-bottom: auto;
+}
+#mynav{
+    background-color: yellowgreen !important;
+    margin-bottom: 0;
+}
+ .navbar-toggler :hover{
+    background-color: black;
+    
+} 
+

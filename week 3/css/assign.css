@@ -1,0 +1,45 @@
+body{
+    background-color: salmon;
+}
+#headbar{
+    padding:0;
+}
+
+.navbar-brand{
+    font-size: 3em;
+    height: 80px;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 20px;
+}
+#navbarSupportedContent li{
+    background-color:coral;
+    text-align: center;
+}
+@media(max-width:576px){
+    .navbar-brand{
+        font-size: 2em;
+        padding-top: 20px ;
+    }
+}
+#navbarSupportedContent .nav-item :hover{
+    background: #E7E7E7;
+    text-decoration: none;
+    font-weight: bold;
+}
+hr{
+    margin:0;
+    border-top:1px dashed darkblue;
+}
+#maincontent h1,h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#maincontent .faltu{
+    height:1000px;
+    width:90vw;
+    background-color:lightskyblue;
+}
+#sub-cont{
+    justify-content: center;
+}
